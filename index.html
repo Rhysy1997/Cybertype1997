@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script.js" defer></script>
+    <title>Cybertype1997</title>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>Cybertype<span>1997</span></h1>
+            </div>
+        </div>
+    </div> 
+    <div class="container">
+<!--added a form with onready and .blur() 
+    to allow for tab redo btn click-->
+    <form onready= "document.getElementById('next').blur();">
+        <div id="stats"></div> 
+        <div id="typing"></div>  
+        <button id="next" onclick="next()">Next</button>
+     </form>
+</body>
+</html>
